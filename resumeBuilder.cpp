@@ -6,25 +6,25 @@ int main() {
 
     std::string uName, college, skillsLearnt, eMail, contNumber, workExpreriece, age;
 
-    std::cout << "Enter your full Name : ";
+    std::cout << "Enter your full Name                      : ";
     std::getline(std::cin, uName);
 
-    std::cout << "Enter your Age : ";
+    std::cout << "Enter your Age                            : ";
     std::getline(std::cin, age);
 
-    std::cout << "Enter the college you've graduated from : ";
+    std::cout << "Enter the college you've graduated from   : ";
     std::getline(std::cin, college);
 
     std::cout << "Enter the technical skills you're good at : ";
     std::getline(std::cin, skillsLearnt);
 
-    std::cout << "Enter your Work-Experience Status : ";
+    std::cout << "Enter your Work-Experience Status         : ";
     std::getline(std::cin, workExpreriece);
 
-    std::cout << "Enter your contact.no : ";
+    std::cout << "Enter your contact.no                     : ";
     std::getline(std::cin, contNumber);
 
-    std::cout << "Enter your E-Mail : ";
+    std::cout << "Enter your E-Mail                         : ";
     std::getline(std::cin, eMail);
 
 // Creating the Resume or CV..
